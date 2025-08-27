@@ -1,0 +1,30 @@
+# Hai_Turtle_Soup_LLM - 配置文件
+# 一个交互式海龟汤（推理谜题）游戏插件，支持用户创建谜题、请求提示、提问并获得回答。
+# 配置版本: 1.6.0
+
+# 插件启用配置
+[plugin]
+
+# 是否启用海龟汤插件
+enabled = true
+
+# 配置文件版本
+config_version = "1.6.0"
+
+
+# LLM API 配置
+[llm]
+
+# LLM API 地址
+api_url = "https://api.siliconflow.cn/v1/chat/completions"
+
+# LLM API 密钥
+api_key = "你的apikey"
+
+# 使用的模型
+model = "deepseek-ai/DeepSeek-V3"
+
+# 文本生成随机性
+temperature = 0.7
+
+
